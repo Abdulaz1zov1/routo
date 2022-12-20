@@ -28,7 +28,7 @@ exports.login = async (req, res) => {
     else if (!password) {
         res.status(404).json({success: false})
     }
-    const user = await Admin.findOne({ email: email, password: password })
+    const user = await SuperAdmin.findOne({ email: email, password: password })
     .select(["email", "password"]);
     if (!user) {
         res.status(404).json({success: false})
