@@ -1,10 +1,9 @@
-const {createClient} = require("redis")
+const { createClient } = require("redis")
 
 
 const client = createClient({
     url: "redis://185.196.214.145:5006"
 })
-
 
 async function setDataToRedis(key, value, time) {
     await client.connect()
@@ -22,7 +21,7 @@ async function getDataFromRedis(key) {
         resolve(client.get(key))
     })
 
-    return response.then( (data) => {
+    return response.then((data) => {
         return data
     }).catch((err) => {
         console.log(err)
@@ -31,7 +30,26 @@ async function getDataFromRedis(key) {
     })
 }
 
+// invalidate the cache
+const invalidateCache = async (key) => {
+    await client.connect()
+    const response = new Promise(async (resolve) => {
+        resolve(client.del(key))
+    })
+    return response.then((data) => {
+        return data
+    }).catch((err) => {
+        console.log(err)
+    }).finally(() => {
+        client.disconnect()
+    })
+};
+
+
+
+
 module.exports = {
     getDataFromRedis,
-    setDataToRedis
+    setDataToRedis,
+    invalidateCache
 }
