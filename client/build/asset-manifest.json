@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.17a11285.css",
-    "main.js": "/static/js/main.208924c0.js",
-    "static/media/login-bg.png": "/static/media/login-bg.f00fa796f7a876779a8b.png",
+    "main.css": "/static/css/main.0babe988.css",
+    "main.js": "/static/js/main.69373783.js",
+    "static/media/login-bg.png": "/static/media/login-bg.56961d07dbb7dc1e40dd.png",
     "static/media/team2.png": "/static/media/team2.214f5e307ea6e4d00ed4.png",
     "static/media/team1.png": "/static/media/team1.06df9d225982b97c3ac1.png",
     "static/media/team4.png": "/static/media/team4.f99144c501156faa7709.png",
@@ -24,6 +24,7 @@
     "static/media/damas.png": "/static/media/damas.0cf06fc4b51d0a6ec727.png",
     "static/media/coba2-tinified.png": "/static/media/coba2-tinified.62c255bd524c08a7ecee.png",
     "static/media/rauto-imgmn2.png": "/static/media/rauto-imgmn2.d5fa3e0cdc68bb2ac8cc.png",
+    "static/media/topLog.png": "/static/media/topLog.030976df0d7523f2d7a3.png",
     "static/media/Group3.jpg": "/static/media/Group3.1bab08bb1f460352e11d.jpg",
     "static/media/facebook_i.png": "/static/media/facebook_i.501e8cd274e504c88fde.png",
     "static/media/logo-rauto.png": "/static/media/logo-rauto.f3d617a740579e4db5d9.png",
@@ -45,11 +46,11 @@
     "static/media/smartphone-green.svg": "/static/media/smartphone-green.f1a0409a9e34b6dda04f.svg",
     "static/media/email.svg": "/static/media/email.7c6a1f0e38c1a0f14f7f47525c7a805a.svg",
     "static/media/smartphone.svg": "/static/media/smartphone.4d832dbada627ba9d4b6883b7333b1d0.svg",
-    "main.17a11285.css.map": "/static/css/main.17a11285.css.map",
-    "main.208924c0.js.map": "/static/js/main.208924c0.js.map"
+    "main.0babe988.css.map": "/static/css/main.0babe988.css.map",
+    "main.69373783.js.map": "/static/js/main.69373783.js.map"
   },
   "entrypoints": [
-    "static/css/main.17a11285.css",
-    "static/js/main.208924c0.js"
+    "static/css/main.0babe988.css",
+    "static/js/main.69373783.js"
   ]
 }
